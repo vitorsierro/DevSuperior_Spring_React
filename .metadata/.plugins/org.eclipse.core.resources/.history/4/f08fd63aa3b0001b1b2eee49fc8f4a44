@@ -1,0 +1,13 @@
+package com.devsuperior.dsvendas.entities;
+
+import java.time.LocalDate;
+
+public class sale {
+	private long id;
+	private Integer visited;
+	private Integer deals;
+	private double amount;
+	private LocalDate date;
+	
+	private Seller seller;
+}
