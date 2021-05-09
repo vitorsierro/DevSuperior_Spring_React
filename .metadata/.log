@@ -148,3 +148,128 @@ java.lang.NullPointerException
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.ui 2 2 2021-05-09 04:56:58.400
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:16.424
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:16.425
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@30e444a3[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:16.508
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:16.922
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:30.860
+!MESSAGE Boot LS startup time from start to initialized: 14343ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.163
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JmnNkZVkisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.188
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.191
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.193
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.194
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.194
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JmnNkZVk => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.303
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.308
+!MESSAGE buffering callback sts4.classpath.JmnNkZVk devsuperior_spring_backend false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:31.309
+!MESSAGE executing callback sts4.classpath.JmnNkZVk 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:32.244
+!MESSAGE executing callback sts4.classpath.JmnNkZVk SUCCESS [done]
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-05-09 04:57:32.700
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:41.009
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JmnNkZVk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:41.010
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JmnNkZVk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:41.011
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:57:41.012
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JmnNkZVk => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:13.899
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:13.900
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@30e444a3[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:13.901
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.538
+!MESSAGE Boot LS startup time from start to initialized: 2635ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.642
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wwsvCcclisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.644
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.646
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.647
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.647
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.648
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wwsvCccl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.655
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.665
+!MESSAGE buffering callback sts4.classpath.wwsvCccl devsuperior_spring_backend false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:16.665
+!MESSAGE executing callback sts4.classpath.wwsvCccl 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-09 04:58:17.342
+!MESSAGE executing callback sts4.classpath.wwsvCccl SUCCESS [done]
